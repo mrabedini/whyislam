@@ -14,7 +14,7 @@ echo "Starting $NAME as `whoami`"
 # Activate the virtual environment
 cd $DJANGODIR
 #source ../bin/activate
-export WORKON_HOME=/home/abedini/.virtualenvs
+export WORKON_HOME=/home/whyislam/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 workon whyislam
 export DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE
