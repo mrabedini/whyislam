@@ -1,7 +1,7 @@
 #!/bin/bash
 
 NAME="shipup"                                  # Name of the application
-DJANGODIR=/home/abedini/whyislam/             # Django project directory
+DJANGODIR=/home/whyislam/whyislam/             # Django project directory
 SOCKFILE=/home/whyislam/run/gunicorn.sock  # we will communicte using this unix socket
 USER=whyislam                                      # the user to run as
 GROUP=webapps                                    # the group to run as
